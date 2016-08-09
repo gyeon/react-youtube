@@ -11,9 +11,7 @@ const VideoBar = class extends React.Component {
 
   render() {
     return (
-      <div className= "VideoContainer">
         <span><VideoList allVideos={this.state.videos} /></span>
-      </div>
     )
   }
 }
