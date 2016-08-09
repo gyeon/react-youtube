@@ -19,8 +19,14 @@ class App extends Component {
     return (
       <div className="container">
         <SearchBar className="col-xs-8"/>
-        <FeaturedVideo className="col-xs-8" url={this.state.featuredVideo}/>
-        <VideoBar className="col-xs-4" updateFeaturedVideo={this.updateFeaturedVideo} swapOutFeaturedVideo={this.swapOutFeaturedVideo}/>
+        <div className="row">
+          <div className="col-sm-8">
+            <FeaturedVideo url={this.state.featuredVideo}/>
+          </div>
+          <div className="col-sm-4">
+            <VideoBar className="col-xs-4" updateFeaturedVideo={this.updateFeaturedVideo} swapOutFeaturedVideo={this.swapOutFeaturedVideo}/>
+          </div>
+        </div>
       </div>
     );
   }

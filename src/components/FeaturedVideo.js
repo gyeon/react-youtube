@@ -5,7 +5,7 @@ class FeaturedVideo extends React.Component {
   render() {
     return(
       <div>
-        <iframe width="420" height="315" src={this.props.url} frameborder="0"></iframe>
+        <iframe width="420" height="315" src={this.props.url}></iframe>
       </div>
     )
   }

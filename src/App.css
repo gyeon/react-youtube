@@ -1,4 +1,4 @@
-/*.App {
+.App {
   text-align: center;
 }
 
@@ -26,43 +26,36 @@
 
 .search-bar input {
   width: 75%;
-  text-align: center;
-}*/
+}
 
-.row {
-  text-align: center;
+.video-item img {
+  max-width: 64px;
+}
+
+.video-detail .details {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.list-group-item {
   cursor: pointer;
-  border: 1px solid #ddd;
-  border-radius: 4px;
 }
-
-.col-sm-4 {
-  text-align: right;
-}
-
-.col-sm-4 img {
-  max-width: 100px;
-  text-align: center;
-}
-
-.col-sm-8, .featured-video {
-
-
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  text-align: center;
-}
-
-
 
 .list-group-item:hover {
   background-color: #eee;
 }
-.col-sm-4, .VideoBar {
+
+.videoBar {
   text-align: right;
-  cursor: pointer;
 }
 
+.row {
+ text-align: center;
+ cursor: pointer;
+ 
+}
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.

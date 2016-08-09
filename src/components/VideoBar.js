@@ -11,7 +11,7 @@ const VideoBar = class extends React.Component {
 
   render() {
     return (
-        <span><VideoList allVideos={this.state.videos} updateFeaturedVideo={this.props.updateFeaturedVideo} swapOutFeaturedVideo={this.props.swapOutFeaturedVideo}/></span>
+        <span className="videoBar"><VideoList allVideos={this.state.videos} updateFeaturedVideo={this.props.updateFeaturedVideo} swapOutFeaturedVideo={this.props.swapOutFeaturedVideo}/></span>
     )
   }
 }
